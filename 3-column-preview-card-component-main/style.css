@@ -33,9 +33,15 @@
 }
 
 .container {
-  border-radius: 0.5rem;
-  display: grid;
-  place-items: center;
-  grid-auto-flow: row;
   overflow: hidden;
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+  border-radius: 0.5rem;
+}
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
 }
